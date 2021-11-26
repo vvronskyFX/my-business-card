@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #23252C;
+    color: #FFFFFF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* This component style here is the portion w/ info on it. */
+main {
+    border-radius: 10px 10px 10px 10px;
+    background-color: #1A1B21;
+    max-width: 317px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.header--image {
+    background: url("./images/profile-picture.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+}
+
+title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 35px;
+    
+}
+
+.title--name {
+    font-size: 1.25rem;
+    margin: 15px 0 0 0;
+}
+
+.title--role {
+    font-size: .85rem;
+    color: #F3BF99;
+    font-weight: 400;
+}
+
+.title--website {
+    font-size: .7rem;
+    color: #F5F5F5;
+    margin: 5px 0 0 0;
+    font-weight: 400;
+}
+
+.title--website a {
+    color: #F5F5F5;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttons {
+    margin: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+    font-size: .8rem;
+    font-weight: 500;
+    margin: 15px 35px;
+    grid-gap: 17px;
+    
+}
+
+.buttons--email {
+    padding: 9px 13px 9px 11px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #D1D5DB;
+    width: 100%;
+}
+
+.buttons--email i {
+    margin: 0 10px 0 0;
+    font-size: .9rem;
+}
+
+.buttons--email a {
+    color:  #374151;
+    text-decoration: none;
+}
+
+.buttons--linkedin {
+    padding: 9px 13px 9px 11px;
+    background-color: #5093E2;
+    color: #FFFFFF;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border: none;
+    width: 100%;
+}
+.buttons--linkedin i {
+    margin: 0 10px 0 0;
+    font-size: 1rem;
+}
+
+.buttons--linkedin a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.info {
+    margin: 15px 35px;
+}
+
+.info--about {
+    margin: 0 0 0 0;
+    color: #F5F5F5;
+    font-size: 1rem;
+    /* line-height: 150%; */
+}
+
+.info--interests {
+    margin: 20px 0 0 0;
+    color: #F5F5F5;
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.info--para {
+    font-size: .75rem;
+    line-height: 150%;
+    color: #DCDCDC;
+    margin: 5px 0 0 0;
+}
+
+/* Finish Setting up Footer Design */
+.footer {
+    padding: 10px 35px;
+    background: #161619;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    color: #918E9B;
+    
+}
+
+.footer--github {
+    font-size: 1.7rem;
+    margin: 0 15px;
+}
+
+.footer--github a {
+    color: #918E9B;
+    text-decoration: none;
+}
+
+.footer--twitter {
+    font-size: 1.7rem;
+    margin: 0 15px;
+}
+
+.footer--twitter a {
+    color: #918E9B;
+    text-decoration: none;
+}
+
+.footer--insta {
+    font-size: 1.7rem;
+    margin: 0 15px;
+}
+
+.footer--insta a {
+    color: #918E9B;
+    text-decoration: none;
+}
+
+
+
